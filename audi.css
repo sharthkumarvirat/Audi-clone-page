@@ -1,0 +1,227 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+
+}
+
+.menutext {
+    margin-left: -1px;
+
+}
+
+.menutext a {
+    text-decoration: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    transform: translateX(500px);
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.97), transparent), url("./images1/audiback\ -\ Copy.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 0px 590px; */
+
+}
+
+.overall {
+    padding: 60px;
+    /* margin: -10px; */
+    /* transform: translateX(-410px); */
+    /* paddin0g: 0px 540px; */
+    padding-top: 30px;
+}
+
+.hero h4 {
+    color: white;
+    font-size: 45px;
+
+}
+
+.hero p {
+    margin: 20px;
+    padding: 0px 480px;
+    font-size: 25px;
+    color: white;
+    transform: translateX(-500px);
+
+
+}
+
+.b1 {
+    /* width: 250px;
+      height: 60px; */
+    padding: 16px 30px;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.b1:hover {
+    background-color: grey;
+}
+
+.b2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 15px 34px;
+}
+
+.b2:hover {
+    color: lightgrey;
+    border-color: lightgray;
+}
+
+.model {
+    padding: 20px;
+}
+
+.allmodels {
+    display: flex;
+    justify-content: center;
+}
+
+.cars img {
+    height: 158px;
+    width: 300px;
+}
+
+.cars {
+    text-align: center;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.cars:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.modeltitle {
+    /* margin-top: 25px; */
+    transform: translateX(65px);
+
+}
+
+.vs img {
+    height: 621px;
+    width: 621px;
+}
+
+.vs {
+    margin: 135px;
+    /* margin-top: 75PX; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    padding: 0px 150px;
+    margin-left: -70px;
+    font-size: 23px;
+    color: black;
+}
+
+.info button {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.info button:hover {
+    color: gray;
+    border-color: brown;
+}
+
+.page {
+    background-image: url(./images1/E-tronHub-3840X4000.jpg);
+    height: 200vh;
+    /* background-size: cover; */
+    background-position: center;
+    background-size: cover;
+
+}
+
+.final {
+    border: 2px solid white;
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    top: 320px;
+    left: 90px;
+    padding: 0px 2px 30px;
+    box-shadow: 1px 2px 3px white;
+    /* position:sticky;
+    top:3px;
+    bottom: 2px;
+     */
+
+}
+
+.line {
+    padding-top: 30px;
+    margin-left: 29px;
+    font-size: 25px;
+    color: gray;
+
+
+}
+
+.descr {
+    font-size: 19px;
+    margin: 30px;
+    color: gray;
+    padding: 0px 90px;
+    margin-top: 12px;
+    transform: translateX(-90px);
+}
+
+.but {
+    margin-left: 29px;
+}
+
+.button1 {
+    width: 125px;
+    height: 50px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    width: 185px;
+    height: 50px;
+    font-size: 17px;
+    background-color: transparent;
+}
